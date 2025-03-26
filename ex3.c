@@ -6,6 +6,7 @@ int main() {
     
     printf("O quer fazer? [L/E/S](F para sair): ");
     scanf("%c", &teste);
+    getchar();
     
     while(teste != 'F') {
         switch(teste) {
@@ -21,6 +22,7 @@ int main() {
         
         printf("O quer fazer? (F para sair): ");
         scanf("%c", &teste);
+        getchar();
     }
     
   return 0;
